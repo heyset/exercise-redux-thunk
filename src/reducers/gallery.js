@@ -15,6 +15,7 @@ function gallery(state = INITIAL_STATE, action) {
       defaultImg: true,
     };
   case GET_PICTURE:
+    console.log(action);
     return {
       ...state,
       isLoading: false,
